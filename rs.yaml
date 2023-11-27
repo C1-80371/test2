@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
   name: rs1
+  namespace: devops-tools
 spec:
   replicas: 5
   selector:
